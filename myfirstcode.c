@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
-    printf("BISMILLAHIR RAHMANIR RAHIM\n");
+    printf("BISMILLAHIR RAHMANIR RAHIM");
     getch();
-    return 0;
 }
