@@ -3,10 +3,13 @@
 #include<conio.h> 
 void main()
 {
-    int a,b;
+    int a,b,c;
     printf("Enter two numbers\n");
     scanf("%d %d",&a,&b);
     printf("before swapping  a is %d, b is %d\n", a, b);
-    printf("after swapping a is %d, b is %d\n",b,a);
+    c=a;                                                         //logic
+    a=b;                                                         //logic 
+    b=c;                                                         //logic
+    printf("after swapping a is %d, b is %d\n",a , b);
     getch();
 }
