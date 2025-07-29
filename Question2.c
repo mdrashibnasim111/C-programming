@@ -6,6 +6,7 @@ void main()
     int a,b;
     printf("Enter two numbers\n");
     scanf("%d %d",&a,&b);
-    printf(" after swapping  a = %d, b = %d\n", b, a);
+    printf(" before swapping  a is %d, b is %d\n", a, b);
+    printf("after swapping a is %d, b is %d\n",b,a);
     getch();
 }
