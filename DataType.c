@@ -11,3 +11,4 @@ int a,b,c;                                     // declaration of variables
     printf("addition of %d and %d is %d ",a,b,c);
     getch();
 }
+                                              // & is used to get address of variable 
