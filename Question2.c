@@ -1,4 +1,4 @@
-//w.a.p to enter two numbers and print swapping of these two numbers.
+//w.a.p to enter two numbers and print swapping of these two numbers using 3 variables.
 #include <stdio.h>  
 #include<conio.h> 
 void main()
