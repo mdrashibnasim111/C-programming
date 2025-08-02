@@ -3,10 +3,10 @@
 void main()
 {
     int a=5, b,c;
-    b=a++;                    // Post-increment:     
-    c=--b;                    // Pre-increment: 
-    a=c++;                    // Post-increment: 
-    b=a--;                    // Post-decrement: 
+    b=a++;                    // Post-increment: first assign,then increment   
+    c=--b;                    // Pre-increment: first decrement, then assign
+    a=c++;                    // Post-increment: first assign, then increment
+    b=a--;                    // Post-decrement: first assign, then decrement
     printf("%d %d %d", a, b, c);
     getch();
 }
