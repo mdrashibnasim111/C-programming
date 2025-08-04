@@ -8,7 +8,7 @@ void main()
     printf("enter a number \t");
     scanf("%d", &n);
     i=1;
-    while(i>=1 && i<=10)  // && is used to set limit (Loop from 1 to 10)
+    while(i<=10)  // && is used to set limit (Loop from 1 to 10)
     {
         printf("%d\n",n*i);
         i++;
