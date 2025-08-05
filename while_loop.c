@@ -7,11 +7,11 @@ void main()
     int i,n;
     printf("enter a number \t");
     scanf("%d", &n);
-    i=1;
-    while(i<=10)  // && is used to set limit (Loop from 1 to 10)
+    i=1;                                     //initializing 
+    while(i<=10)                             // Condition 
     {
         printf("%d\n",n*i);
-        i++;
+        i++;                                 //increment / Decrement
     }
     getch();
 }
