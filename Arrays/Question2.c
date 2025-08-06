@@ -13,7 +13,7 @@ void main()
     for(i=0;i<n;i++)
     {
     printf("%d\t", arr[i]);
-    sum=sum+arr[i];                     //forfula to find the sum of elements in an array.
+    sum=sum+arr[i];                     //formula to find the sum of elements in an array.
     }
     printf("\nthe sum of n elements of array is %d",sum);
     getch();
