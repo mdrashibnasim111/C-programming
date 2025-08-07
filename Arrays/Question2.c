@@ -9,8 +9,8 @@ void main()
     printf("enter the elemennts\n");
     for(i=0;i<n;i++)
     scanf("%d\t",&arr[i]);
-    printf("the elements in the array are :\n");
-    for(i=0;i<n;i++)
+    printf("the elements in the array are :\n"); 
+    for(i=0;i<n;i++)                               //for loop to print the elements of array.
     {
     printf("%d\t", arr[i]);
     sum=sum+arr[i];                     //formula to find the sum of elements in an array.
