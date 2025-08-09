@@ -6,6 +6,7 @@ void main()
     int a=5;
     //float (decimal number) data type
     float b= 2.66;
+    
     //double (large decimal number) data type
     double c= 3.14159;
     //character data type
