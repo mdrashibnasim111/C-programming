@@ -9,5 +9,7 @@ void main()
 }                                          
 
 
-                     //RULES :-
-                     //we can only use "alphabets" and "_ underscore" in variable name 
+                 /*
+                     RULES :-
+                     we can only use "alphabets" and "_ underscore" in variable name
+                 */
