@@ -12,3 +12,4 @@ int a,b,c;                                     // declaration of variables
     getch();
 }
                                               // & is used to get address of variable 
+                                              // %d is used to print integer value
