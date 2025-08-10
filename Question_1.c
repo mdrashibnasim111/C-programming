@@ -5,7 +5,8 @@ void main()
 {
     int a,b,c;
     printf("Enter two numbers\n");
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",&a,&b);                                         //input two numbers by user
+    //we can also write scanf("%d %d",&a,&b);
     printf("before swapping  a is %d, b is %d\n", a, b);
     c=a;                                                         //logic
     a=b;                                                         //logic 
