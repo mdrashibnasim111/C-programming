@@ -14,7 +14,7 @@ void main()
     scanf("%d",&d);
     e=a+b+c+d;                                                  //logic
     printf("total marks is %d\n",e);
-    f=e/40*100;                                                //logic
+    f=e/40*10;                                                //logic
     printf("percentage is %d",f);                              //logic
     getch();
 }
