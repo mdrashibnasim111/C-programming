@@ -7,8 +7,10 @@ int main()
     a=15;
     b=12;
     c=10;
-    d=(b<c)==(a<c);               /*(arthmatical + - * / %)  (relational > < <= >= == !=)*/
-    printf("%d",d); 
+    d=(b<c)==(a<c);               //  relational       > < <= >= == !=
+    printf("%d\n",d); 
+    d=(a+b)*c;                    //  arthmatical         + - * / %
+    printf("addition of %d and %d with multiply by %d  is %d\n",a,b,c,d);
     getch();
 }  
 
