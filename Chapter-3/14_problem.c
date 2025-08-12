@@ -1,11 +1,11 @@
 //Write a program to determine whether a character entered by the user is lowercase or not.
 #include <stdio.h>
-
+#include<conio.h>
 int main()
  {
     char ch;
 
-    printf("Enter a character: ");
+    printf("Enter a character: ");     //   https://www.ascii-code.com/
     scanf("%c", &ch);
 
     if (ch >= 'a' && ch <= 'z')                             /*
