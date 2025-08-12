@@ -2,7 +2,8 @@
 #include<conio.h>
 int main()
  {
-    int income, tax = 0;
+    int income;
+    float tax=0;
     printf("Enter income:\n");
     scanf("%d", &income);
 
@@ -19,6 +20,6 @@ int main()
         tax = 0.05 * (500000 - 250000) + 0.2 * (1000000 - 500000) + 0.3 * (income - 1000000);
     }
 
-    printf("The total tax you need to pay is %d\n", tax);
+    printf("The total tax you need to pay is %f\n", tax);
     return 0;
 }
