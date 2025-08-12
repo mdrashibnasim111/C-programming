@@ -8,7 +8,7 @@ int main()
     int a;
     printf("Enter the year :");
     scanf("%d",&a);
-    if(a%4==0)
+    if(a%4==0)                                             //for leap year, year must be divisible by 4
     {
     printf("This is a leap year");
     }
