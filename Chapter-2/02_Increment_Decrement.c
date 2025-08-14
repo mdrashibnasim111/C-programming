@@ -20,3 +20,16 @@ int main()
     (3)Assign
     (4)Post-increment
 */
+
+/*
+     += (Addition Assignment): x += y is equivalent to x = x + y.
+     -= (Subtraction Assignment): x -= y is equivalent to x = x - y.
+     *= (Multiplication Assignment): x *= y is equivalent to x = x * y.
+     /= (Division Assignment): x /= y is equivalent to x = x / y.
+     %= (Modulo Assignment): x %= y is equivalent to x = x % y.
+     &= (Bitwise AND Assignment): x &= y is equivalent to x = x & y.
+     |= (Bitwise OR Assignment): x |= y is equivalent to x = x | y.
+     ^= (Bitwise XOR Assignment): x ^= y is equivalent to x = x ^ y.
+    <<= (Left Shift Assignment): x <<= y is equivalent to x = x << y.
+    >>= (Right Shift Assignment): x >>= y is equivalent to x = x >> y.
+*/
