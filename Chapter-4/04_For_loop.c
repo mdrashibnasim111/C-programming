@@ -9,4 +9,4 @@ void main()
     }
     getch();
 }
-  //we use FOR-LOOP when the initialization, condition, and increment/decrement are known beforehand.g
+  //we use FOR-LOOP when the initialization, condition, and increment/decrement are known beforehand.
